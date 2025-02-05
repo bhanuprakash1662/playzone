@@ -1,9 +1,9 @@
 .custom-navbar {
-  background: linear-gradient(90deg, #27679c, #1E90FF); /* Gradient for navbar */
+  background: linear-gradient(90deg, #27679c, #1E90FF); 
 }
 
 .bar {
-  background: linear-gradient(145deg, #FFEFD5, #F4A460); /* Gradient for bar */
+  background: linear-gradient(145deg, #FFEFD5, #F4A460); 
   height: 20vh;
   width: 90vw;
   display: flex;
@@ -19,7 +19,7 @@
 }
 
 .search-bar {
-  background: linear-gradient(to right, #FAFAD2, #FFD700); /* Gradient for search bar */
+  background: linear-gradient(to right, #FAFAD2, #FFD700); 
   border: 1px solid #ccc;
   border-radius: 25px;
   padding: 5px 15px;
@@ -28,7 +28,7 @@
 }
 
 .search-bar button {
-  background: linear-gradient(to right, #FF6347, #FF4500); /* Gradient for button */
+  background: linear-gradient(to right, #FF6347, #FF4500); 
   border: none;
   outline: none;
   padding: 8px 15px;
@@ -44,7 +44,7 @@
 }
 
 .info {
-  background: linear-gradient(135deg, #25c0a9ad, #37AFE1); /* Gradient for info boxes */
+  background: linear-gradient(135deg, #25c0a9ad, #37AFE1); 
   height: 50px;
   width: 150px;
   justify-content: center;
@@ -63,7 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #ffff, #ffff); /* Gradient for marquee */
+  background: linear-gradient(90deg, #ffff, #ffff); 
   color: rgb(17, 13, 13);
   height: 35px;
   width: 100%;
@@ -75,11 +75,11 @@
 }
 
 .marquee-container:hover {
-  background: linear-gradient(90deg, #e4dba6, #FFA500); /* Gradient hover effect */
+  background: linear-gradient(90deg, #e4dba6, #FFA500); 
 }
 
 .footer {
-  background: linear-gradient(90deg, #4682B4, #5F9EA0); /* Gradient for footer */
+  background: linear-gradient(90deg, #4682B4, #5F9EA0); 
 }
 
 .btn-grad:hover {
