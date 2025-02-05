@@ -1,0 +1,15 @@
+/* In your CSS file (e.g., App.css) */
+
+body {
+    background-image: url('./images/Backgroundimg.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    opacity: 0.8;
+  }
+  .confirm-button {
+    width: 50%; /* Decrease button width */
+    padding: 8px;
+    font-size: 14px;
+  }
+  

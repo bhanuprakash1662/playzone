@@ -1,0 +1,61 @@
+/* Custom Card Styling */
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none; /* Remove default border */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.7); /* Enhance shadow on hover */
+  }
+  
+  /* Carousel Image Styling */
+  .carousel-image {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-image:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+  }
+  
+  /* Custom Button Styling */
+  .custom-button {
+    height: 70px;
+    width: 142px;
+    margin-top: 20px;
+    background-color: #28a745;
+    border-color: #28a745;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+  }
+  
+  /* Text Styling */
+  .custom-card strong {
+    color: #28a745; /* Highlight strong text with green */
+  }
+  
+  /* Carousel Caption Styling */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .custom-card {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .custom-button {
+      width: 100%; /* Full-width button on smaller screens */
+    }
+  }
