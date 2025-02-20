@@ -13,7 +13,11 @@ body {
     background-color: #007BFF;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 100;
+    z-index: 1000;
   }
   
   .header h1 {
@@ -24,7 +28,7 @@ body {
  
   .content {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 80px auto; /* Adjust the top margin to match the navbar height */
     padding: 20px;
     background: white;
     border-radius: 8px;
@@ -33,7 +37,7 @@ body {
   
   .content h2 {
     color: #007BFF;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
   .content p {

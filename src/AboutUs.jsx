@@ -2,9 +2,14 @@ import React from "react";
 import "./Aboutus.css";
 import Batball from "./box1/images/batball.jpg"; // Cricket Image
 import SwimmingImage from "./box1/images/swimming.jpg"; // Swimming Image
+import Navb from "./box1/navnbar";
 
 const AboutUs = () => {
+
+
   return (
+    <div><Navb/>
+    <div>
     <div className="about-us">
       <div className="backgroundimg">
         <header className="header">
@@ -81,6 +86,8 @@ const AboutUs = () => {
           </p>
         </main>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

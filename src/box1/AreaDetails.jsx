@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Button ,Carousel} from "react-bootstrap";
 // import "./detailspage.css";
 import { useNavigate } from "react-router-dom";
 import "./AreaDetails.css";
+import Navb from "./navnbar";
 
 const CricketAreas = [
   {
@@ -626,6 +627,7 @@ const AreaDetails = () => {
   }
 
   return (
+    <div><Navb/>
     <Container fluid className="area-details-container">
       <h1 className="area-title">{area.areaName}</h1>
       <Row>
@@ -681,6 +683,7 @@ const AreaDetails = () => {
         ))}
       </Row>
     </Container>
+    </div>
   );
 };
 

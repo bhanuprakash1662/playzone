@@ -1,6 +1,7 @@
-
+import Navb from "./box1/navnbar";
 const ContactUs = () => {
   return (
+    <div><Navb/>
     <div>
       <style>
         {`
@@ -125,7 +126,7 @@ const ContactUs = () => {
           }
         `}
       </style>
-
+          <br></br>
       <div className="contact-container">
         <h1 className="contact-heading">Get in Touch</h1>
         <p className="contact-description">
@@ -165,6 +166,7 @@ const ContactUs = () => {
         </div>
         
       </div>
+    </div>
     </div>
   );
 };
